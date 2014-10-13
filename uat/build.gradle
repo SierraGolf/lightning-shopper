@@ -1,0 +1,44 @@
+apply plugin: 'com.android.application'
+
+final run = project.hasProperty('run')
+
+android {
+    compileSdkVersion 20
+    buildToolsVersion '20.0.0'
+
+    defaultConfig {
+        applicationId 'io.github.sierragolf.lightningshopper'
+        minSdkVersion 16
+        targetSdkVersion 20
+        versionCode 1
+        versionName '1.0'
+        testInstrumentationRunner 'io.github.sierragolf.lightningshopper.test.Instrumentation'
+    }
+
+    packagingOptions {
+        exclude 'LICENSE.txt'
+    }
+
+    if (run) {
+        sourceSets {
+            main {
+                manifest.srcFile '../app/src/main/AndroidManifest.xml'
+                res.srcDirs = ['../app/src/main/res']
+                java.srcDirs = ['../app/src/main/java']
+            }
+        }
+    }
+}
+
+dependencies {
+
+    if (!run) {
+        compile project(':app')
+    }
+
+    androidTestCompile 'info.cukes:cucumber-core:1.1.8'
+    androidTestCompile 'info.cukes:cucumber-java:1.1.8'
+    androidTestCompile 'info.cukes:cucumber-android:1.1.8@jar'
+    androidTestCompile 'com.jakewharton.espresso:espresso:1.1-r3'
+    androidTestCompile 'com.jakewharton.espresso:espresso-support-v4:1.1-r3'
+}
