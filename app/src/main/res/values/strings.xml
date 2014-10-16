@@ -4,5 +4,6 @@
     <string name="app_name">Lightning Shopper</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="button">click</string>
 
 </resources>

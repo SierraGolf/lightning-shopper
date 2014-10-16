@@ -1,0 +1,1 @@
+cd uat	&& ../gradlew connectedCheck
