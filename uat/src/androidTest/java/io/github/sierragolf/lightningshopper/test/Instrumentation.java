@@ -1,10 +1,10 @@
 package io.github.sierragolf.lightningshopper.test;
 
 import android.os.Bundle;
-import com.google.android.apps.common.testing.testrunner.GoogleInstrumentation;
+import android.support.test.runner.MonitoringInstrumentation;
 import cucumber.api.android.CucumberInstrumentationCore;
 
-public class Instrumentation extends GoogleInstrumentation {
+public class Instrumentation extends MonitoringInstrumentation {
 
     private final CucumberInstrumentationCore instrumentationCore = new CucumberInstrumentationCore(this);
 

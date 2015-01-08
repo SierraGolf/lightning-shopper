@@ -1,6 +1,7 @@
 apply plugin: 'java'
+apply plugin: 'jacoco'
 
 dependencies {
     testCompile project(':app').android.applicationVariants.toList().first().javaCompile.outputs.files
-    testCompile 'junit:junit:4.+'
+    testCompile 'junit:junit:4.11'
 }
