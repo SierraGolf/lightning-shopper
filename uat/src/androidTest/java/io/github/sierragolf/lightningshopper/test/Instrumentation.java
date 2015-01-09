@@ -11,13 +11,13 @@ public class Instrumentation extends MonitoringInstrumentation {
     @Override
     public void onCreate(final Bundle bundle) {
         super.onCreate(bundle);
-        instrumentationCore.onCreate(bundle);
+        instrumentationCore.create(bundle);
         start();
     }
 
     @Override
     public void onStart() {
         waitForIdleSync();
-        instrumentationCore.onStart();
+        instrumentationCore.start();
     }
 }
