@@ -13,10 +13,6 @@ android {
         testInstrumentationRunner "io.github.sierragolf.lightningshopper.test.Instrumentation"
     }
 
-    sourceSets {
-        androidTest.setRoot('src/acceptance-test/')
-    }
-
     packagingOptions {
         exclude 'LICENSE.txt'
     }
