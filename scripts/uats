@@ -1,1 +1,1 @@
-cd uat	&& ../gradlew connectedCheck
+./gradlew connectedCheck
