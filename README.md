@@ -17,6 +17,7 @@ Currently I am experimenting with the build/test and automation setup, afterward
 ## Build
 * either add .scripts/ to your path or prepend it to the following scripts
 * run unit tests with ```uts```
+* run integration tests with ```its```
 * run user acceptance tests with ```uats```
 * run user acceptance tests with coverage ```uats-coverage```
 * install debug version on the device ```installDebug```

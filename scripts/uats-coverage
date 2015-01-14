@@ -1,1 +1,1 @@
-cd uat && ../gradlew createDebugCoverageReport
+./gradlew :uat:createDebugCoverageReport
