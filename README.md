@@ -15,7 +15,7 @@ Since this project is mainly a toy project, I am planning to experiment with sev
 Currently I am experimenting with the build/test and automation setup, afterwards I want to spent some time checking out RxJava and Realm as well as android's new material design.
 
 ## Build
-* either add .scripts/ to your path or prepend it to the following scripts
+* either add ```./scripts``` to your path or prepend it to the following scripts
 * run unit tests with ```uts```
 * run integration tests with ```its```
 * run user acceptance tests with ```uats```
