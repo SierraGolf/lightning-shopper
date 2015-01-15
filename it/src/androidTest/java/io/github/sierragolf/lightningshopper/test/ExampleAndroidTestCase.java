@@ -16,12 +16,12 @@ public class ExampleAndroidTestCase extends AndroidTestCase {
     public ExpectedException expectedException = ExpectedException.none();
 
     @Test
-    public void testJunit4WithHamcrest() {
+    public void junit4WithHamcrest() {
         assertThat(true, is(true));
     }
 
     @Test
-    public void testExpectedException() {
+    public void expectedException() {
 
         expectedException.expect(RuntimeException.class);
 
