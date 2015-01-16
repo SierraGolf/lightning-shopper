@@ -1,6 +1,6 @@
 *work in progress*
 
-# Lightning-Shopper
+# Lightning-Shopper [![Build Status](https://travis-ci.org/SierraGolf/lightning-shopper.svg)](https://travis-ci.org/SierraGolf/lightning-shopper)
 This is supposed to become an android app which implements a clever shopping list. Key features:
 * adding items to the shopping list
 * being able to tag items (one tag per item) in the shopping list in order to group them by their location in the supermarket, e.g. nudels, drink, sweets, cheese, meat ...
