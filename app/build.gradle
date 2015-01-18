@@ -16,4 +16,15 @@ android {
     packagingOptions {
         exclude "LICENSE.txt"
     }
+
+    buildTypes {
+
+        debug {
+            resValue("string", "appName", "Lightning Shopper (debug)")
+        }
+
+        release {
+            resValue("string", "appName", "Lightning Shopper")
+        }
+    }
 }

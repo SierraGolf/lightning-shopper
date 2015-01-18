@@ -7,7 +7,7 @@ import static org.junit.Assert.assertThat;
 public class SomeManagerTest {
 
     @Test
-    public void returns_parameter() {
+    public void returnsParameter() {
         assertThat(new SomeManager().returnParameter(false), is(false));
     }
 }

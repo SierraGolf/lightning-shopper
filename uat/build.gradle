@@ -26,8 +26,14 @@ android {
     }
 
     buildTypes {
+
         debug {
+            resValue("string", "appName", "Lightning Shopper (debug)")
             testCoverageEnabled true
+        }
+
+        release {
+            resValue("string", "appName", "Lightning Shopper")
         }
     }
 }
