@@ -1,1 +1,1 @@
-./gradlew :it:connectedCheck
+./gradlew :app:connectedCheck

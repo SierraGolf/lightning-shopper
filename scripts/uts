@@ -1,1 +1,1 @@
-./gradlew :ut:test
+./gradlew :app:test

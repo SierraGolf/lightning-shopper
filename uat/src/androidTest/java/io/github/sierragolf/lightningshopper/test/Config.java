@@ -9,7 +9,6 @@ import io.github.sierragolf.lightningshopper.ListItemsActivity;
 @CucumberOptions(features = "features", tags = {"~@ignore"})
 public class Config extends ActivityInstrumentationTestCase2<ListItemsActivity> {
 
-
     public Config() {
         super(ListItemsActivity.class);
     }

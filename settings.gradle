@@ -1,1 +1,1 @@
-include ':app', ':uat', 'it', ':ut'
+include ':app', ':uat'
