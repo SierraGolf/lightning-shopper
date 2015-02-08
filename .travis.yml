@@ -3,4 +3,4 @@ android:
   components:
     - android-21
     - extra-android-m2repository
-script: ./gradlew test check
+script: ./gradlew test check --s
